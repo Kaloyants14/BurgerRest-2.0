@@ -1,0 +1,35 @@
+#testimonials {
+    background-color: #ff7e58;
+    padding-top: 320px;
+    padding-bottom: 280px;
+    position: relative;
+}
+
+#testimonials::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/bg-testimonials.svg");
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+
+#testimonials .container {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    position: relative;
+}
+
+#testimonials p {
+    max-width: 80%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    font-family: "Montserrat";
+    margin: 0 auto;
+}

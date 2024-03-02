@@ -1,0 +1,47 @@
+#statistics {
+    background: #1b6ec7;
+}
+
+#statistics h2 {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#statistics div.container.statistics-wrapper {
+    justify-content: space-evenly;
+}
+
+#statistics .statistics-item {
+    text-align: center;
+}
+
+.statistics-item div {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics-item div p {
+    font-size: 96px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.statistics-item h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-top: 70px;
+    margin-bottom: 50px;
+}

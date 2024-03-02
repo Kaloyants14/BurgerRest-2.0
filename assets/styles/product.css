@@ -1,0 +1,35 @@
+.product {
+    background: #ffeedc;
+}
+
+.product .container {
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.product .image-wrapper {
+    text-align: center;
+}
+
+.product .image-wrapper img {
+    border-radius: 50%;
+}
+
+.product .content-wrapper h3 {
+    font-size: 53px;
+    color: #1b6ec7;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-bottom: 30px;
+}
+
+.product .content-wrapper p {
+    max-width: 540px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
