@@ -1,0 +1,71 @@
+header {
+    background-image: url("../images/banner.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+header div.container.nav-container {
+    background: transparent;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+}
+
+header div.container.nav-container .logo-wrapper img {
+    width: 70px;
+}
+
+header nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+header nav ul li a {
+    font-size: 23px;
+    line-height: 39px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+header nav ul li a:hover {
+    border-bottom: 3px solid #b2fcff;
+}
+
+header .container.banner {
+    padding-top: 90px;
+    padding-bottom: 170px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header .container.banner .content-wrapper h1 {
+    font-size: 134px;
+    font-weight: 700;
+    font-family: "Aleo";
+    max-width: 1000px;
+    margin-bottom: 30px;
+    line-height: 170px;
+}
+
+header .container.banner .content-wrapper .btn-lorem {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    background: #1b6ec7;
+    color: inherit;
+    border: 3px solid #1b6ec7;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header .container.banner .content-wrapper .btn-lorem:hover {
+    background: #fff;
+    color: #1b6ec7;
+}

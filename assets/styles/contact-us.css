@@ -1,0 +1,67 @@
+#contact-us {
+    background: #ffeedc;
+}
+
+#contact-us .container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+#contact-us h3 {
+    font-size: 53px;
+    color: #4d80e4;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-bottom: 60px;
+}
+
+#contact-us p {
+    max-width: 780px;
+    font-size: 25px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 0 auto 80px;
+}
+
+#contact-us form {
+    position: relative;
+    max-width: 55%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contact-us form input {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 15px 200px 15px 25px;
+    border: none;
+    width: 100%;
+    font-size: 25px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+#contact-us form input::placeholder {
+    opacity: 0.5;
+    color: #000;
+}
+
+#contact-us form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    background-color: #4d80e4;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+}

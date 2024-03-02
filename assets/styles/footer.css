@@ -1,0 +1,48 @@
+footer {
+    background: #111;
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+footer .container {
+    justify-content: space-evenly;
+}
+
+footer h4 {
+    font-size: 25px;
+    line-height: 31px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-bottom: 15px;
+}
+
+footer .about-wrapper p {
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+footer .heading2-wrapper ul {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    list-style-type: disc;
+    line-height: 30px;
+    padding-left: 50px;
+}
+
+footer .heading3-wrapper ul {
+    font-size: 18px;
+    line-height: 41px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+footer .heading3-wrapper i.fa-solid {
+    color: #b2fcff;
+}
